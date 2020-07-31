@@ -1,0 +1,164 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+body {
+  font-family: "Russo One", sans-serif;
+  
+}
+
+html {
+  /*scroll-behavior: smooth;*/
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+
+  position: relative;
+  /*border-left: 1px solid blue;
+  border-right: 1px solid blue;*/
+}
+
+.header {
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px 0 black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.section {
+  height: 100vh;
+  padding-top: 65px;
+}
+
+#home {
+  /*background-color: cornflowerblue;*/
+  background-image: url(../images/work-from-home.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#about {
+  background-color:#fefefe;
+}
+
+#works {
+  /*background-color: rgb(237, 100, 100);*/
+  background-image: url(../images/prog-sticker.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+}
+#contacts {
+  background-color: #fefefe;
+}
+
+.header-logo {
+  width: 10%;
+}
+
+.header-menu {
+  width: 60%;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  text-transform: uppercase;
+  transition-duration: 0.7s;
+  transition-property: transform;
+}
+
+.menu-link:hover {
+  transform: scale(1.2);
+  color: blueviolet;
+}
+
+.home-title{
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  font-size: 70px;
+  color: #fefefe;
+  text-shadow: 1px 1px black;
+  text-align: center;
+}
+
+/*.about-photo{
+  width: 30%;
+  height: 70vh;
+  background-color: cornflowerblue;
+}*/
+
+.about-info{
+  width: 50%;
+}
+
+.about-info p{
+  font-size:22px;
+  line-height: 22px;
+}
+
+.about-icons{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  font-size: 100px;
+  
+
+}
+
+.transform{transition-duration: 0.7s;
+  transition-property: transform;
+
+}
+
+.transform:hover{
+  transform: scale(1.2);
+  color: blueviolet;
+}
+
+.phone{
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.contact-info{
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+.contacts{
+justify-content: space-around;
+}
+
+.footer{
+  text-align: center;
+}
