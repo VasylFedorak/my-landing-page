@@ -3,15 +3,15 @@
 
 body {
   font-family: "Russo One", sans-serif;
-  
+  min-width: 1200px;
 }
 
-html {
-  /*scroll-behavior: smooth;*/
-}
+/*html {
+  scroll-behavior: smooth;
+}*/
 
 .container {
-  width: 90%;
+  width: 1200px;
   height: 100%;
   margin: 0 auto;
 
@@ -46,7 +46,7 @@ html {
 }
 
 #about {
-  background-color:#fefefe;
+  background-color: #fefefe;
 }
 
 #works {
@@ -57,7 +57,7 @@ html {
   background-position: center;
   background-attachment: fixed;
 }
-}
+
 #contacts {
   background-color: #fefefe;
 }
@@ -101,7 +101,7 @@ html {
   color: blueviolet;
 }
 
-.home-title{
+.home-title {
   position: absolute;
   bottom: 20px;
   right: 0;
@@ -117,48 +117,46 @@ html {
   background-color: cornflowerblue;
 }*/
 
-.about-info{
+.about-info {
   width: 50%;
 }
 
-.about-info p{
-  font-size:22px;
+.about-info p {
+  font-size: 22px;
   line-height: 22px;
 }
 
-.about-icons{
+.about-icons {
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
   font-size: 100px;
-  
-
 }
 
-.transform{transition-duration: 0.7s;
+.transform {
+  transition-duration: 0.7s;
   transition-property: transform;
-
 }
 
-.transform:hover{
+.transform:hover {
   transform: scale(1.2);
   color: blueviolet;
 }
 
-.phone{
+.phone {
   text-decoration: none;
   color: blueviolet;
 }
 
-.contact-info{
+.contact-info {
   font-size: 30px;
   line-height: 1.5;
 }
 
-.contacts{
-justify-content: space-around;
+.contacts {
+  justify-content: space-around;
 }
 
-.footer{
+.footer {
   text-align: center;
 }
